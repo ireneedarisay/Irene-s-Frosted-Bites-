@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Irene's Frosted Bites</title>
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #ffe6f0, #fff0f5, #ffe6fa);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #ff99cc, #ff66b2, #ffb3d9);
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+}
+
+.box {
+    background-color: #fff0f5;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #cc0066;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 220px;
+    margin: 15px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #cc0066;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #ff66b2;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #ff3385;
+}
+
+.quote {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    color: #cc0066;
+}
+
+footer {
+    background: linear-gradient(to right, #ff99cc, #ff66b2, #ffb3d9);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1> Irene's Frosted Bites</h1>
+    <p>Freshly baked cupcakes made with love </p>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#order">Order</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<!-- HOME -->
+<section id="home">
+    <div class="box">
+        <h2>Welcome to Irene's Frosted Bites </h2>
+        <p>
+        Located in <strong>Santiago, Ilocos Sur, Philippines</strong>, we serve soft, moist, and delicious cupcakes made fresh daily.
+        </p>
+
+        <p>
+        Every bite is sweet, soft, and perfect for your cravings anytime of the day.
+        </p>
+
+        <p class="quote">“Baked with love, shared with happiness.”</p>
+    </div>
+</section>
+
+<!-- MENU -->
+<section id="menu">
+    <div class="box">
+        <h2> Our Cupcake Menu</h2>
+
+        <div class="menu-item">
+            <img src="https://i.ibb.co/hjrGDSG/Chocolate-Cupcakes4.jpg"
+            <p>Chocolate Cupcake </p>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://i.ibb.co/DPrdwDCY/Matcha-Cupcakes-1.jpg"
+            <p>Matcha Cupcake </p>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://i.ibb.co/HfLdVhXD/1776773092722.jpg"
+            <p>Yema Cupcake </p>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://i.ibb.co/qLYZgVSP/STRAWBERRY-VANILLA-CUPCAKES-S-01.jpg"
+            <p>Strawberry Cupcake </p>
+        </div>
+
+        <h3>Price List</h3>
+        <table>
+            <tr>
+                <th>Type</th>
+                <th>Price</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>1 Cupcake</td>
+                <td>₱25</td>
+                <td>Perfect snack</td>
+            </tr>
+            <tr>
+                <td>Box of 4</td>
+                <td>₱90</td>
+                <td>Best for sharing</td>
+            </tr>
+            <tr>
+                <td>Box of 12</td>
+                <td>₱250</td>
+                <td>Party pack</td>
+            </tr>
+        </table>
+
+        <p class="quote">“Sweetness in every bite.”</p>
+    </div>
+</section>
+
+<!-- ORDER -->
+<section id="order">
+    <div class="box">
+        <h2>📞 Order Now</h2>
+
+        <p><strong>Owner:</strong> Irene Darisay</p>
+        <p><strong>Location:</strong> Santiago, Ilocos Sur, Philippines</p>
+        <p><strong>Contact:</strong> 09XXXXXXXXX</p>
+
+        <form>
+            <label>Name:</label>
+            <input type="text" required>
+
+            <label>Email:</label>
+            <input type="email" required>
+
+            <label>Order Details:</label>
+            <textarea rows="4"></textarea>
+
+            <label>Choose Flavor:</label>
+            <select>
+                <option>Chocolate Cupcake</option>
+                <option>Matcha Cupcake</option>
+                <option>Yema Cupcake</option>
+                <option>Strawberry Cupcake</option>
+            </select>
+
+            <button type="submit">Place Order </button>
+        </form>
+
+        <p class="quote">“Fresh cupcakes, happy hearts!”</p>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Irene's Frosted Bites</p>
+    <p>Made with love in Santiago, Ilocos Sur</p>
+</footer>
+
+</body>
+</html>
